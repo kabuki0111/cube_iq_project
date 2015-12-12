@@ -3,17 +3,17 @@ using System.Collections;
 
 public class BgmSeController : MonoBehaviour {
 
-    void Awake(){
+    private void Awake(){
         Debug.Log("test bgm se controller");
     }
 
 	// Use this for initialization
-	void Start () {
+    private void Start () {
 	
 	}
 	
 	// Update is called once per frame
-	void Update () {
+    private void Update () {
 	
 	}
 }
