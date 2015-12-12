@@ -2,7 +2,9 @@
 using System.Collections;
 
 public class ApplicationManager : SingletonMonoBehaviour<ApplicationManager> {
+    [SerializeField]
     private BgmSeController bsController;    //BGM & SE
+    [SerializeField]
     private SceneController sceController;  //シーン
 
 
