@@ -26,18 +26,8 @@ public class ApplicationManager : SingletonMonoBehaviour<ApplicationManager> {
             return;
         }
         DontDestroyOnLoad(this.gameObject);
-
-        InitController();   //コントローラークラスの初期化
     }
-
-
-    /*
-     * Application Managerの初期設定
-     */
-    private void InitController(){
-        this.bsController = new BgmSeController();   //BGM & SEをコントロールを生成
-        this.sceController = new SceneController(); //シーン遷移をコントロールを生成
-    }
+        
 
     /*
      * シーンに遷移する時に使用
